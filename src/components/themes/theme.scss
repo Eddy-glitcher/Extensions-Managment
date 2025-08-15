@@ -1,0 +1,18 @@
+@use "../../assets/styles/mixins/flexbox-mixins.scss" as flexMixins;
+
+.extensions__theme-toggle {
+    @include flexMixins.flexJustify(center);
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--secondary-background);
+    transition: background-color 100ms ease-in-out;
+
+    &:hover {
+    background-color: var(--tertiary-background);
+    }
+
+    &:focus {
+    background-color: var(--secondary-background);
+    box-shadow: 0 0 0 2px var(--primary-background);
+    }
+}
