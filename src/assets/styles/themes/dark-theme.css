@@ -1,0 +1,20 @@
+@import "../variables/colors.css";
+
+.dark-theme {
+  --primary-gradient-background-color: var(--dark-gradient);
+
+  --primary-background  : var(--neutral-800);
+  --secondary-background: var(--neutral-700);
+  --tertiary-background : var(--neutral-600);
+  --quaternary-background : var(--neutral-0);
+
+  --border-color : var(--neutral-300);
+
+  --red-color-light: var(--red-400);
+  --red-color-medium: var(--red-500);
+  --red-color-strong: var(--red-700);
+
+  --text-primary   : var(--neutral-0);
+  --text-secondary : var(--neutral-900);
+  --text-tertiary  : var(--neutral-300);
+}
