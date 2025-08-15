@@ -1,11 +1,45 @@
 @import 'normalize.css';
 
+/* Fonts */
 @import './assets/styles/fonts/fonts.css';
+
+/* Theme styles */
+@import './assets/styles/themes/light-theme.css';
+@import './assets/styles/themes/dark-theme.css';
 
 html,
 body {
   font-family: "Noto Sans", serif;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
 }
 
+body{
+  background: var(--primary-gradient-background-color);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+button{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;  
+  
+  &:focus{
+    outline: 2px solid var(--red-color-medium);
+    outline-offset: 2px;
+  }
+
+  &:hover{
+    opacity: 0.7;
+  }
+}
+
+.block-scroll{
+  overflow: hidden;
+}
