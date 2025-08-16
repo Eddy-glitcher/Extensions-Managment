@@ -2,7 +2,6 @@
   "name": "extensions-managment",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Eddy_Glitcher.github.io/extensions-manager",
   "type": "module",
   "scripts": {
     "dev": "vite",
