@@ -2,7 +2,7 @@
   "name": "extensions-managment",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Eddy-glitcher.github.io/extensions-managment",
+  "homepage": "https://eddy-glitcher.github.io/Extensions-Managment/",
   "type": "module",
   "scripts": {
     "dev": "vite",
